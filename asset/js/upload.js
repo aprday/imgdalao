@@ -215,8 +215,8 @@ function render_uploaded() {
         var name = resp.data.url.split('/').pop();
         
         const WPRAW = "https://i1.wp.com/i.gigli.eu.org"  //使用wordpress.com加速
-		const WPCFRAW = "https://i2.wp.com/i.gigli.eu.org"  //使用wordpress.com加速cf,修改后方域名为你的加速域名
-        const PhRAW = "https://i3.wp.com/i.gigli.eu.org"   //原地址
+		const WPCFRAW = "https://image.baidu.com/search/down?url=https://i.gigli.eu.org"  //使用wordpress.com加速cf,修改后方域名为你的加速域名
+        const PhRAW = "https://img01.sogoucdn.com/v2/thumb/retype_exclude_gif/ext/auto/q/95/crop/xy/ai/t/0/?appid=122&url=https://i.gigli.eu.org"   //原地址
         const PROXYURL = ""  //自定义加速域名 默认是使用cloudflare
         const BASE_PROXYURL = PROXYURL ? PROXYURL : BASE_URL;
         
